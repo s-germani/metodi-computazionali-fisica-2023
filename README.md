@@ -40,7 +40,7 @@ Versione online delle lezioni (read-only)
 =========================================
 * [Lezione 1  - Introduzione](https://github.com/s-germani/metodi-computazionali-fisica-2023/blob/main/slides/L01_MetodiComputazionali_Intro.pdf)
 * [Lezione 1a - Preparazione Ambiente di Lavoro e Basi di Linux](https://github.com/s-germani/metodi-computazionali-fisica-2023/blob/main/slides/L01a_Terminale_Linux.pdf)
-* [Lezione 2  - Le basi di Python](notebooks/L02_BasiPython.ipynb)
+* [Lezione 2  - Le Basi di Python](notebooks/L02_BasiPython.ipynb)
 
 
 
