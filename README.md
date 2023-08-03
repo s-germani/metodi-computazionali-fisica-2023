@@ -24,12 +24,13 @@ Elenco Lezioni
 * Rappresentazine Numerica ed Errori
 * *Git e GitHub*
 * Integrazione e Derivazione
-* *Copie in Python*
+* *Funzioni in Python*
 * Equazioni - Minimizzazione
+* *Copie in Python*
 * Equazioni Differenziali
 * Trasformate di Fourier
 * Metodi Monte Carlo
-* Metodi e Classi
+* Moduli e Classi
 * Integrazione C e Python
 * Note Conclusive - Esame
 
