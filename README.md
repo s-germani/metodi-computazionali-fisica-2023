@@ -20,19 +20,18 @@ Elenco Lezioni
 * Introduzione
 * *Preparazione Ambiente di Lavoro e Basi di Linux*
 * Le basi di Python
-* *Principali moduli Python in ambito scinetifico (Numpy, Scipy, Matplotlib,...)*
+* Principali moduli Python in ambito scinetifico (Numpy, Scipy, Matplotlib,...)
+* *Copie in Python*
 * Rappresentazine Numerica ed Errori
 * *Git e GitHub*
+* Funzioni, Moduli e Classi
 * Integrazione e Derivazione
-* *Funzioni in Python*
 * Equazioni - Minimizzazione
-* *Copie in Python*
 * Equazioni Differenziali
 * Trasformate di Fourier
 * Metodi Monte Carlo
-* Moduli e Classi
 * Integrazione C e Python
-* Note Conclusive - Esame
+
 
 
 
