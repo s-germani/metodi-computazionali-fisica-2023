@@ -22,7 +22,7 @@ Elenco Lezioni
 * Le basi di Python
 * Principali moduli Python in ambito scinetifico (Numpy, Scipy, Matplotlib,...)
 * *Copie in Python*
-* Rappresentazine Numerica ed Errori
+* Rappresentazione Numerica ed Errori
 * *Git e GitHub*
 * Funzioni, Moduli e Classi
 * Integrazione e Derivazione
@@ -40,6 +40,9 @@ Versione online delle lezioni (read-only)
 * [Lezione 1  - Introduzione](https://github.com/s-germani/metodi-computazionali-fisica-2023/blob/main/slides/L01_MetodiComputazionali_Intro.pdf)
 * [Lezione 1a - Preparazione Ambiente di Lavoro e Basi di Linux](https://github.com/s-germani/metodi-computazionali-fisica-2023/blob/main/slides/L01a_Terminale_Linux.pdf)
 * [Lezione 2  - Le Basi di Python](notebooks/L02_BasiPython.ipynb)
-
+* [Lezione 3  - Moduli Python in ambito scientifico](notebooks/L03_NumpyScipyMatplotlib.ipynb)
+* [Lezione 3a - Copie in Python](notebooks/L03a_PythonCopy.ipynb)
+* [Lezione 4  - Rappresentazione Numerica ed Errori](notebooks/L04_Rappresentazioni_ed_Errori_Numerici.ipynb)
+* [Lezione 4a - Git e GitHub](notebooks/L04a_Github.ipynb)
 
 
