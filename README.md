@@ -25,6 +25,7 @@ Elenco Lezioni
 * Rappresentazione Numerica ed Errori
 * *Git e GitHub*
 * Funzioni, Moduli e Classi
+* *argparse*
 * Integrazione e Derivazione
 * Equazioni - Minimizzazione
 * Equazioni Differenziali
