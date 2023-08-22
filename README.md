@@ -46,9 +46,8 @@ Versione online delle lezioni (read-only)
 * [Lezione 4  - Rappresentazione Numerica ed Errori](notebooks/lezioni/L04_Rappresentazioni_ed_Errori_Numerici.ipynb)
 * [Lezione 4a - Git e GitHub](notebooks/lezioni/L04a_Github.ipynb)
 * [Lezione 5  - Funzioni, Moduli e Classi](notebooks/lezioni/L05_Funzioni_Moduli_e_Classi.ipynb)
-* [Lezione 5a - argparse]((notebooks/lezioni/L05a_argparse.ipynb))
 * [Lezione 6  - Integrazione e Derivazione](notebooks/lezioni/L06_Integrazione_e_Derivazione.ipynb)
-
+* [Lezione 6a - argparse]((notebooks/lezioni/L05a_argparse.ipynb))
 
 Esercitazioni in Laboratorio (read-only) 
 =========================================
