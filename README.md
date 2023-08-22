@@ -54,6 +54,7 @@ Esercitazioni in Laboratorio (read-only)
 =========================================
 * [E02 - Basi di Python](notebooks/esercitazioni/E02_BasiPython.ipynb)
 * [E03 - Moduli Python in ambito scientifico ](notebooks/esercitazioni/E03_NumpyScipyMatplotlib.ipynb)
+* [E05 - Funzioni, Moduli e Classi](notebooks/esercitazioni/E05_Funzioni_Moduli_e_Classi.ipynb)
 
 
 
