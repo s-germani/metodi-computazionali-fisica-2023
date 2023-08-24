@@ -25,8 +25,8 @@ Elenco Lezioni
 * Rappresentazione Numerica ed Errori
 * *Git e GitHub*
 * Funzioni, Moduli e Classi
-* *argparse*
 * Integrazione e Derivazione
+* *argparse*
 * Equazioni - Minimizzazione
 * Equazioni Differenziali
 * Trasformate di Fourier
