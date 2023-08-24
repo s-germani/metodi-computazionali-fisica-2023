@@ -48,6 +48,8 @@ Versione online delle lezioni (read-only)
 * [Lezione 5  - Funzioni, Moduli e Classi](notebooks/lezioni/L05_Funzioni_Moduli_e_Classi.ipynb)
 * [Lezione 6  - Integrazione e Derivazione](notebooks/lezioni/L06_Integrazione_e_Derivazione.ipynb)
 * [Lezione 6a - argparse]((notebooks/lezioni/L05a_argparse.ipynb))
+* [Lezione 7  - Equazioni e Minimizzazione](notebooks/lezioni/L07_Equazioni_Minimizzazione.ipynb)
+
 
 Esercitazioni in Laboratorio (read-only) 
 =========================================
@@ -55,6 +57,6 @@ Esercitazioni in Laboratorio (read-only)
 * [E03 - Moduli Python in ambito scientifico ](notebooks/esercitazioni/E03_NumpyScipyMatplotlib.ipynb)
 * [E05 - Funzioni, Moduli e Classi](notebooks/esercitazioni/E05_Funzioni_Moduli_e_Classi.ipynb)
 * [E06 - Integrazione e Derivazione](notebooks/esercitazioni/E06_Integrazione_e_Derivazione.ipynb)
-
+* [E07 - Equazioni e Minimizzazione](notebooks/esercitazioni/E07_Equazioni_Minimizzazione.ipynb)
 
 
