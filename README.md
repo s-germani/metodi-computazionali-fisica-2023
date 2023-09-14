@@ -49,6 +49,7 @@ Versione online delle lezioni (read-only)
 * [Lezione 6  - Integrazione e Derivazione](notebooks/lezioni/L06_Integrazione_e_Derivazione.ipynb)
 * [Lezione 6a - argparse]((notebooks/lezioni/L05a_argparse.ipynb))
 * [Lezione 7  - Equazioni e Minimizzazione](notebooks/lezioni/L07_Equazioni_Minimizzazione.ipynb)
+* [Lezione 8  - Equazioni Differenziali](notebooks/lezioni/L08_EquazioniDifferenziali.ipynb)
 
 
 Esercitazioni in Laboratorio (read-only) 
@@ -58,5 +59,6 @@ Esercitazioni in Laboratorio (read-only)
 * [E05 - Funzioni, Moduli e Classi](notebooks/esercitazioni/E05_Funzioni_Moduli_e_Classi.ipynb)
 * [E06 - Integrazione e Derivazione](notebooks/esercitazioni/E06_Integrazione_e_Derivazione.ipynb)
 * [E07 - Equazioni e Minimizzazione](notebooks/esercitazioni/E07_Equazioni_Minimizzazione.ipynb)
+* [E08 - Equazioni Differenziali](notebooks/esercitazioni/E08_EquazioniDifferenziali.ipynb)
 
 
