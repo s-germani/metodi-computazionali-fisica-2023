@@ -50,6 +50,8 @@ Versione online delle lezioni (read-only)
 * [Lezione 6a - argparse]((notebooks/lezioni/L05a_argparse.ipynb))
 * [Lezione 7  - Equazioni e Minimizzazione](notebooks/lezioni/L07_Equazioni_Minimizzazione.ipynb)
 * [Lezione 8  - Equazioni Differenziali](notebooks/lezioni/L08_EquazioniDifferenziali.ipynb)
+* [Lezione 9  - Equazioni Differenziali](notebooks/lezioni/L09_TrasformateFourier.ipynb)
+
 
 
 Esercitazioni in Laboratorio (read-only) 
