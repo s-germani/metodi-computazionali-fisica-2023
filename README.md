@@ -63,4 +63,4 @@ Esercitazioni in Laboratorio (read-only)
 * [E07 - Equazioni e Minimizzazione](notebooks/esercitazioni/E07_Equazioni_Minimizzazione.ipynb)
 * [E08 - Equazioni Differenziali](notebooks/esercitazioni/E08_EquazioniDifferenziali.ipynb)
 * [E09 - Trasformate di Fourier](notebooks/esercitazioni/E09_TrasformateFourier.ipynb)
-
+* [E10 - Metodi Monte Carlo](notebooks/esercitazioni/E10_MonteCarlo.ipynb)
