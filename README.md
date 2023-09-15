@@ -12,7 +12,7 @@ Per aprire le lezioni in formato notebook dal terminale dopo aver scaricato il f
 
 Le ercitazioni da svolgere sono descrite all'interno di notebook jupyter.
 Per scaricare i dati fare riferimento al pacchetto nel repository [*get-mcf-data*](https://github.com/s-germani/get-mcf-data)
-Esempi su come svolgere le esrcitazioni verranno resi disponibili nell'area [*soluzioni*](https://github.com/s-germani/metodi-computazionali-fisica-2023/tree/main/soluzioni)
+Esempi su come svolgere le esrcitazioni verranno resi disponibili nell'area [*soluzioni*](https://github.com/s-germani/metodi-computazionali-fisica-2023/tree/main/soluzioni) dopo il completamento della relativa attività in laboratorio.
 
 
 Elenco Lezioni
