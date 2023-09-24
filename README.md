@@ -4,7 +4,7 @@ Documentazione per il corso di "Metodi Computazionali per la Fisica"
 per la Laurea Trieannale in Fisica dell'Università degli Studi di Perugia.
 
 Le lezioni sono sotto forma di file PDF o di notebook jupyter entrambi visualizzabili tramite un browswer web.
-Per aprire le lezioni in formato notebook dal terminale dopo aver scaricato il file `.ipynb`:
+In alternativa per aprire le lezioni in formato notebook dal terminale dopo aver scaricato il file `.ipynb` (richiede istallazione di _jupyter_):
 
     $ jupyter-notebook  nome-file-notebook.ipynb
 
