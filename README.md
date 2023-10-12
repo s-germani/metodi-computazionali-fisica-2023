@@ -36,7 +36,7 @@ Elenco Lezioni
 
 
 
-Versione online delle lezioni (read-only) 
+Versione online delle lezioni
 =========================================
 * [Lezione  1  - Introduzione](https://github.com/s-germani/metodi-computazionali-fisica-2023/blob/main/slides/L01_MetodiComputazionali_Intro.pdf)
 * [Lezione  1a - Preparazione Ambiente di Lavoro e Basi di Linux](https://github.com/s-germani/metodi-computazionali-fisica-2023/blob/main/slides/L01a_Terminale_Linux.pdf)
@@ -54,7 +54,7 @@ Versione online delle lezioni (read-only)
 * [Lezione 10  - Metodi Monte Carlo](notebooks/lezioni/L10_MonteCarlo.ipynb)
 
 
-Esercitazioni in Laboratorio (read-only) 
+Esercitazioni in Laboratorio
 =========================================
 * [E02 - Basi di Python](notebooks/esercitazioni/E02_BasiPython.ipynb)
 * [E03 - Moduli Python in ambito scientifico ](notebooks/esercitazioni/E03_NumpyScipyMatplotlib.ipynb)
@@ -64,3 +64,9 @@ Esercitazioni in Laboratorio (read-only)
 * [E08 - Equazioni Differenziali](notebooks/esercitazioni/E08_EquazioniDifferenziali.ipynb)
 * [E09 - Trasformate di Fourier](notebooks/esercitazioni/E09_TrasformateFourier.ipynb)
 * [E10 - Metodi Monte Carlo](notebooks/esercitazioni/E10_MonteCarlo.ipynb)
+
+
+Esempi di Svolgimento delle Esercitazioni
+=========================================
+* [E02 - Basi di Python](soluzioni/E02)
+
