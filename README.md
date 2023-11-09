@@ -69,4 +69,6 @@ Esercitazioni in Laboratorio
 Esempi di Svolgimento delle Esercitazioni
 =========================================
 * [E02 - Basi di Python](soluzioni/E02)
+* [E03 - Moduli Python in ambito scientifico](soluzioni/E03)
+* [E05 - Funzioni, Moduli e Classi](soluzioni/E05)
 
