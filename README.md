@@ -75,4 +75,5 @@ Link Cartelle Soluzioni:
 * [E02 - Basi di Python](soluzioni/E02)
 * [E03 - Moduli Python in ambito scientifico](soluzioni/E03)
 * [E05 - Funzioni, Moduli e Classi](soluzioni/E05)
+* [E06 - Integrali e Derivate](soluzioni/E06)
 

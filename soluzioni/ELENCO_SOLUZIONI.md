@@ -17,6 +17,8 @@
   * `uso_somme.py`             : script python che utilizza le funzioni del modulo somme (Esercizi 0 e 1 - Funzioni e Moduli)
   * `reco.py`                  : file per la definzione del modulo reco con le classi Hit (Esercizio 2 - Classi)
   * `events_reconstruction.py` : script python per l'analisi degli Hit attraverso il modulo reco (Esercizio 2 - Classi)
-
-
-
+* Cartella [E06](E06) ( Esercitazione 6 - Integrali e Derivate ):
+  * `calcolo_distanza.py`       : script python per leggere il file csv con i dati  e calcolare l'integrale della distanza percorsa dalla velocià
+  * `oscillatore_anarmonico.py` : script python per calcolare il periodo dell'oscillatore anarmonico
+  * `signal_times.py`           : script python per il calcolo delle derivate dei segnali dell'oscilloscopio
+  
