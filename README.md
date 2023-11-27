@@ -76,4 +76,5 @@ Link Cartelle Soluzioni:
 * [E03 - Moduli Python in ambito scientifico](soluzioni/E03)
 * [E05 - Funzioni, Moduli e Classi](soluzioni/E05)
 * [E06 - Integrali e Derivate](soluzioni/E06)
+* [E07 - Equazioni e Minimizzazione](soluzioni/E07)
 

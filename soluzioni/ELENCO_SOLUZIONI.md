@@ -21,4 +21,6 @@
   * `calcolo_distanza.py`       : script python per leggere il file csv con i dati  e calcolare l'integrale della distanza percorsa dalla velocià
   * `oscillatore_anarmonico.py` : script python per calcolare il periodo dell'oscillatore anarmonico
   * `signal_times.py`           : script python per il calcolo delle derivate dei segnali dell'oscilloscopio
-  
+* Cartella [E07](E07) ( Esercitazione  - Equazioni Minimizzazione ): 
+  * `jpsimass_fit.py` : script python per il fit della massa invariante della J/psi
+
