@@ -52,6 +52,7 @@ Versione online delle lezioni
 * [Lezione  8  - Equazioni Differenziali](notebooks/lezioni/L08_EquazioniDifferenziali.ipynb)
 * [Lezione  9  - Trasformate di Fourier](notebooks/lezioni/L09_TrasformateFourier.ipynb)
 * [Lezione 10  - Metodi Monte Carlo](notebooks/lezioni/L10_MonteCarlo.ipynb)
+* [Lezione 11  - Integrazione C e Python](notebooks/lezioni/L11_CePython.ipynb)
 
 
 Esercitazioni in Laboratorio
@@ -64,6 +65,7 @@ Esercitazioni in Laboratorio
 * [E08 - Equazioni Differenziali](notebooks/esercitazioni/E08_EquazioniDifferenziali.ipynb)
 * [E09 - Trasformate di Fourier](notebooks/esercitazioni/E09_TrasformateFourier.ipynb)
 * [E10 - Metodi Monte Carlo](notebooks/esercitazioni/E10_MonteCarlo.ipynb)
+* [E11 - Integrazione C e Python](notebooks/esercitazioni/E11_C-Python.ipynb)
 
 
 Esempi di Svolgimento delle Esercitazioni
