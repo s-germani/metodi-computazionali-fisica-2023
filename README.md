@@ -79,4 +79,5 @@ Link Cartelle Soluzioni:
 * [E05 - Funzioni, Moduli e Classi](soluzioni/E05)
 * [E06 - Integrali e Derivate](soluzioni/E06)
 * [E07 - Equazioni e Minimizzazione](soluzioni/E07)
+* [E08 - Equazioni Differenziali](soluzioni/E08)
 
