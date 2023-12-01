@@ -47,7 +47,7 @@ Versione online delle lezioni
 * [Lezione  4a - Git e GitHub](notebooks/lezioni/L04a_Github.ipynb)
 * [Lezione  5  - Funzioni, Moduli e Classi](notebooks/lezioni/L05_Funzioni_Moduli_e_Classi.ipynb)
 * [Lezione  6  - Integrazione e Derivazione](notebooks/lezioni/L06_Integrazione_e_Derivazione.ipynb)
-* [Lezione  6a - argparse]((notebooks/lezioni/L05a_argparse.ipynb))
+* [Lezione  6a - argparse]((notebooks/lezioni/L06a_argparse.ipynb))
 * [Lezione  7  - Equazioni e Minimizzazione](notebooks/lezioni/L07_Equazioni_Minimizzazione.ipynb)
 * [Lezione  8  - Equazioni Differenziali](notebooks/lezioni/L08_EquazioniDifferenziali.ipynb)
 * [Lezione  9  - Trasformate di Fourier](notebooks/lezioni/L09_TrasformateFourier.ipynb)
