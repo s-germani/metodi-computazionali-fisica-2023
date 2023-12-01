@@ -53,6 +53,8 @@ Versione online delle lezioni
 * [Lezione  9  - Trasformate di Fourier](notebooks/lezioni/L09_TrasformateFourier.ipynb)
 * [Lezione 10  - Metodi Monte Carlo](notebooks/lezioni/L10_MonteCarlo.ipynb)
 * [Lezione 11  - Integrazione C e Python](notebooks/lezioni/L11_CePython.ipynb)
+* [Lezione 11a - Note Conclusive - Descrizione Esame](notebooks/lezioni/L11a_NoteConclusive_DescrizioneEsame.ipynb)
+
 
 
 Esercitazioni in Laboratorio
