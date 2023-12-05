@@ -32,7 +32,6 @@ data = mycamera.read_camera(buffer_size)
 
 
 
-
 for i in range(0,len(data),2):
     x = (i // 2)  % width
     y = (i // 2) // width 
