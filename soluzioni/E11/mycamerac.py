@@ -10,10 +10,10 @@
 #    che sfrutta la libreria condivisa mycamera     #
 #####################################################
 
-
-import numpy as np
+import time
 import ctypes
 
+import numpy as np
 import matplotlib.pyplot  as plt
 
 
@@ -38,14 +38,17 @@ class myCamera:
     _colorbar = True
 
     _image_file = ''
+
     
     def __init__(self):
-        # Init ctypes param types and return values
+      # Init ctypes param types and return values
         self._libmycamera.read_camera.argtypes = [ctypes.c_char_p]
         self._libmycamera.read_camera.restype  = ctypes.c_int
 
         self.compute_image_bytes()
 
+        #dictionary per funzioni di decodifica a seconda del metodo selezionato 
+        self._decode_dictionary = {'mv' : self.decode_rawimage_mv, 'fb' : self.decode_rawimage_fb, }
         
     def compute_image_bytes(self):
         """
@@ -57,16 +60,21 @@ class myCamera:
         self._image_bytes = self._height * self._width * 2 
         
 
-    def read_camera(self):
+    def read_camera(self, decode_method='mv'):
         """
         Acquisizione immagine
+           Sono disponibili due metodi di decodifica eseguita automaticamente dopo l'acquisizione:
+           - mv : utilizza memoryview e operazioni di shift bitwise
+           - fb : utilizza la funzione from_bytes 
         """
         self._p_image = ctypes.create_string_buffer(self._image_bytes)
         err = self._libmycamera.read_camera(self._p_image)
         print('Image Size: {:}  bytes'.format( len(self._p_image) ) )
 
-        self.decode_rawimage()
+        # funzione di deodifica
+        self._decode_dictionary[decode_method]()
 
+        
         
     def get_rawimage(self):
         """
@@ -74,16 +82,46 @@ class myCamera:
         """
 
         return self._p_image
-
     
-    def decode_rawimage(self):
+    
+        
+    def decode_rawimage_mv(self):
         """
-        Decodifica  immagine aquisita
-           (chiamata automaticamente dopo l'acquisizione dell'immagine) 
+        Decodifica  immagine aquisita 
+            (chiamata automaticamente dopo l'acquisizione dell'immagine se l'opzone di decodifica è: mv) 
+            utilizza:
+            - memoryview da immagine raw 
+            - operazioni d bitwise shift per calcolare valore di intensità del pixel
         """
 
-        self._image = np.zeros((self._height, self._width))
+        # creo array per immagine vuota (2 bytes / pixel --> intero unsigned a 16 bit) 
+        self._image = np.zeros((self._height, self._width), np.uint16)
+
         
+        data = memoryview(self._p_image.raw )        
+        for i in range(0,len(self._p_image),2):
+            
+            x = (i // 2)  % self._width
+            y = (i // 2) // self._width 
+            
+            pixel_value = data[i] + (data[i+1] << 8)
+                        
+            self._image[y,x] = pixel_value
+
+            
+        
+    def decode_rawimage_fb(self):
+        """
+        Decodifica  immagine aquisita 
+            (chiamata automaticamente dopo l'acquisizione dell'immagine se l'opzone di decodifica è: fb) 
+            utilizza funzione from_bytes per convertire bytes in valore numerico
+        """
+        
+        # creo array per immagine vuota (2 bytes / pixel --> intero unsigned a 16 bit) 
+        self._image = np.zeros((self._height, self._width), np.uint16)
+
+        
+
         for i in range(0,len(self._p_image),2):
             
             x = (i // 2)  % self._width
@@ -92,6 +130,7 @@ class myCamera:
             pixel_value = int.from_bytes(self._p_image[i]+self._p_image[i+1], byteorder='little', signed=False)
             
             self._image[y,x] = pixel_value
+
 
             
     def get_image(self):

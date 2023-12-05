@@ -23,10 +23,11 @@ def parse_arguments():
     parser.add_argument('--image_info',     action='store_true',    help='Stampa informazioni sull\' immagine acquisita')
     parser.add_argument('--show_image',     action='store_true',    help='Mostra l\'immagine acquisita')
     parser.add_argument('--no_cbar',        action='store_true',    help='Mostra l\'immagine senza barra di colori')
-    parser.add_argument('--norm',           action='store',         default='log', help='Imposta l\'opzione di normalizzazione dell\'immagine (default=\'log\'')
+    parser.add_argument('--decode_method',  action='store',         default='mv',   help='Imposta l\'opzione per il metodo di decodifica dell\'immagine raw: mv/fb (default=mv)')
+    parser.add_argument('--norm',           action='store',         default='log',  help='Imposta l\'opzione di normalizzazione dell\'immagine (default=log)')
     parser.add_argument('--cmap',           action='store',         default='gray', help='Imposta la mappa di colori dell\'immagine (default=\'gray\'')
 
-    parser.add_argument('--image_file',     action='store',         default='', help='File dove salvare l\'immagine (default: immagine nonsalvata') 
+    parser.add_argument('--image_file',     action='store',         default='', help='File dove salvare l\'immagine (default: immagine non salvata)') 
     return  parser.parse_args()
 
 
@@ -38,7 +39,7 @@ def run():
     myc.set_image_file(args.image_file)
         
     if args.read_camera == True:
-        myc.read_camera()
+        myc.read_camera(args.decode_method)
 
     if args.image_info == True:
         print(myc)

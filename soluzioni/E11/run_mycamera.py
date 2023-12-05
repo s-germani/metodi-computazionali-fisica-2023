@@ -21,7 +21,9 @@ import mycamera
 
 width  = 1536
 height = 1024
-photo = np.zeros((height,width))
+
+# creo array per immagine vuota (2 bytes / pixel --> intero unsigned a 16 bit) 
+photo = np.zeros((height,width), np.uint16)
 
 
 buffer_size = width * height * 2
