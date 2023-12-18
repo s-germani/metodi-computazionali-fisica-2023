@@ -5,7 +5,7 @@ import ctypes
 
 
 # Carico la lireria libsomme (libsomme.so) che è presente nella cartella  (sdir)
-_libsomme = np.ctypeslib.load_library('libsomme', '../accessori/L10')
+_libsomme = np.ctypeslib.load_library('libsomme', '../../accessori/L11')
 
 
 # definizoine tipi di input (argtypes) e di output (restypes) per la funzione sum_n di libsomme 
