@@ -82,4 +82,7 @@ Link Cartelle Soluzioni:
 * [E06 - Integrali e Derivate](soluzioni/E06)
 * [E07 - Equazioni e Minimizzazione](soluzioni/E07)
 * [E08 - Equazioni Differenziali](soluzioni/E08)
+* [E09 - Trasformate di Fourier](soluzioni/E09)
+* [E10 - Metodi Monte Carlo](soluzioni/E10)
+* [E11 - Integrazione C e Python](soluzioni/E11)
 
